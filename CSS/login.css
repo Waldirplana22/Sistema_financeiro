@@ -13,7 +13,7 @@
 }
 
 form{
-    background-color: blueviolet;
+    background-color: rgba(153, 43, 226, 0.418);
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -22,20 +22,38 @@ form{
     padding: 30px;
     width: 400px;
 }
-div .input{
+div input{
+
     display: flex;
     flex-direction: column;
-    font-size: 25px;
+    padding: 5px;
+    font-size: 15px;
+    width: 100%;
 }
 .button{
     text-align: center;
     
 }
 .btn{
-    font-size: 20px;
-    width: 45%;
+    background-color: rgb(226, 208, 43);
+    font-size: 15px;
+    width: 25%;
     padding: 5px;
+    border: 1px solid black;
+}
+a{
+    background-color: brown;
+    color: beige;
+    font-size: 16px;
+    width: 25%;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+}
+.btnLINK{
+    padding: 4px 30px 4.9px 30px;
 }
 h1{
     font-size: 40px;
     text-align: center;
+}
