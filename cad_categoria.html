@@ -4,8 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tela categoria</title>
+    <link rel="stylesheet" href="CSS/login.css">
 </head>
 <body>
+    <div class="container">
+        <form action="" method="post">
+            <h1>Cadastre-se</h1>
+            <div class="input">
+                <label for="login">Nome</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+                    <div class="input">
+                <div >
+                <label for="login">Tipo</label>
+            </div>
+            <div style="display: flex; gap: 10px; font-size: 25px; justify-content: center; align-items: center;">
+            <div class="input" >
+                    <input type="radio" name="Tipo" value="1">
+            </div>
+                <div>
+                    <label for="Despesa">Despesa</label>
+                </div>
+                <div><input type="radio" name="Tipo" value="0"></div>
+                    <div><label for="Receita">receita</label>
+                    </div>
+                </div>          
+            </div>
+            <div class="input">
+                <label for="descrição" class="form-label">Descrição</label>
+                <input type="text" class="form-control" id="descrição" name="descrição">
+            </div>
+            
+            <div class="button">                
+                <button class="btn">Cadastrar</button>
+                <a class="btnLINK" href="index.html">Voltar</a>
+            </div>
     
 </body>
 </html>

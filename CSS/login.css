@@ -22,6 +22,18 @@ form{
     padding: 30px;
     width: 400px;
 }
+.radio{
+    display: flex;
+    flex-direction: row;
+ }
+
+ label{
+    font-size: 25px;
+ }
+div input .bntradio{
+    padding-left: 0px;
+
+}
 div input{
 
     display: flex;
